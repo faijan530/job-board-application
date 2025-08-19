@@ -23,9 +23,11 @@
 	</developers>
 	<modules>
 		<module>startup</module>
+		<module>endpoints</module>
 		<module>domain</module>
 		<module>repository</module>
-		<module>endpoints</module>
+		<module>service</module>
+		<module>common</module>
 	</modules>
 	<scm>
 		<connection/>

@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>endpoints</artifactId>
+    <artifactId>service</artifactId>
 
     <properties>
         <maven.compiler.source>24</maven.compiler.source>
@@ -18,20 +18,16 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
             <groupId>com.jasiqlabs</groupId>
             <artifactId>domain</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-
         </dependency>
         <dependency>
             <groupId>com.jasiqlabs</groupId>
-            <artifactId>service</artifactId>
+            <artifactId>repository</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
         <!-- PostgreSQL Driver -->
         <dependency>
             <groupId>org.postgresql</groupId>
@@ -48,12 +44,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-logging</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.jetbrains</groupId>
-            <artifactId>annotations</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
-        </dependency>
+
+
+
+
+
 
 
     </dependencies>
